@@ -3,55 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Rhythm Entertainments | Premium Music Label</title>
+    <title>Rhythm Entertainments | Record Label</title>
     
     <!-- SEO & Open Graph Meta Tags -->
-    <meta name="description" content="Rhythm Entertainments is a premium Punjabi, Haryanvi, and Hindi music label. Discover new songs, exclusive artists, and top-tier music videos.">
-    <meta name="keywords" content="Punjabi Music, Haryanvi Music, Hindi Songs, Rhythm Entertainments, Music Videos, Artists, Puneet Simaar, Sagar Saab, Beparwaah Anushka">
-    <meta name="author" content="Rhythm Entertainments">
+    <meta name="description" content="Rhythm Entertainments is a premium Punjabi, Haryanvi, and Hindi record label. Discover new releases, exclusive artists, and top-tier music videos.">
+    <meta name="keywords" content="Punjabi Music, Haryanvi Songs, Hindi Music, Rhythm Entertainments, Record Label, Puneet Simaar, Sagar Saab, Beparwaah Anushka">
     <link rel="canonical" href="https://rhythmentertainments.com/">
     
-    <!-- Social Share Meta -->
-    <meta property="og:title" content="Rhythm Entertainments | Premium Music Label">
-    <meta property="og:description" content="Discover the best of Punjabi, Haryanvi, and Hindi music with Rhythm Entertainments.">
-    <meta property="og:image" content="https://yt3.googleusercontent.com/ytc/AIdro_k6_U-Q5G_t7_g_6_M-788_0353_6_Z_z34_Z_C=s900-c-k-c0x00ffffff-no-rj">
-    <meta property="og:url" content="https://rhythmentertainments.com/">
-    <meta property="og:type" content="website">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/varun-0765/Rythm-portfolio/main/Rythm_logo.png">
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/varun-0765/Rythm-portfolio/main/Rythm_logo.png">
     
-    <!-- Fonts -->
+    <!-- Fonts: Orbitron for Web3/Techno display headers & Space Grotesk for body -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <style>
         :root {
-            /* Ultra Premium Dark Palette with Rich Depth */
-            --bg-base: #020204;
-            --bg-surface: #0a0a0f;
-            --bg-elevated: #13131c;
-            --bg-glass: rgba(18, 18, 28, 0.55);
+            /* Web3 / NFT Record Label Palette inspired by reference mockup */
+            --bg-black: #060608;
+            --bg-surface: #0d0e12;
+            --bg-elevated: #14161f;
+            --bg-purple-footer: #1e0938;
             
-            --brand-gold: #f3d58a;
-            --brand-gold-glow: rgba(243, 213, 138, 0.2);
-            --brand-purple: #9d4edd;
-            --brand-purple-glow: rgba(157, 78, 221, 0.25);
-            --brand-cyan: #00f2fe;
+            --neon-green: #00ff66;
+            --neon-green-glow: rgba(0, 255, 102, 0.25);
+            --neon-pink: #ff007f;
+            --neon-pink-glow: rgba(255, 0, 127, 0.3);
+            --neon-purple: #9d4edd;
+            --neon-cyan: #00f2fe;
             
-            --text-primary: #ffffff;
-            --text-secondary: #a3a3b5;
-            --text-tertiary: #6b6b80;
+            --text-main: #ffffff;
+            --text-muted: #8e8ea8;
+            --text-neon: #00ff66;
             
-            --border-subtle: rgba(255, 255, 255, 0.07);
-            --border-glass: rgba(255, 255, 255, 0.12);
+            --border-subtle: rgba(255, 255, 255, 0.08);
+            --border-neon: rgba(0, 255, 102, 0.3);
+            --border-pink: rgba(255, 0, 127, 0.4);
             
-            /* Typography */
-            --font-body: 'Outfit', sans-serif;
-            --font-display: 'Syncopate', sans-serif;
-            
-            --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+            --font-tech: 'Orbitron', sans-serif;
+            --font-body: 'Space Grotesk', sans-serif;
             
             --z-bg: 0;
             --z-base: 10;
@@ -73,168 +68,105 @@
 
         body {
             font-family: var(--font-body);
-            background-color: var(--bg-base);
-            color: var(--text-primary);
+            background-color: var(--bg-black);
+            color: var(--text-main);
             line-height: 1.5;
             overflow-x: hidden;
             -webkit-font-smoothing: antialiased;
         }
 
         /* Custom Scrollbar */
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: var(--bg-base); }
-        ::-webkit-scrollbar-thumb { background: var(--bg-elevated); border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: var(--brand-purple); }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--bg-black); }
+        ::-webkit-scrollbar-thumb { background: #222533; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--neon-green); }
 
         a { text-decoration: none; color: inherit; }
         ul { list-style: none; }
-        img { max-width: 100%; display: block; border-radius: 12px; }
+        img { max-width: 100%; display: block; }
         button { cursor: pointer; border: none; background: none; font-family: inherit; color: inherit; outline: none; }
 
-        h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; }
-        .font-display { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 2px; }
-        
-        .gradient-text {
-            background: linear-gradient(135deg, var(--brand-gold) 0%, var(--brand-purple) 50%, var(--brand-cyan) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            display: inline-block;
-        }
+        h1, h2, h3, h4, .font-tech { font-family: var(--font-tech); text-transform: uppercase; letter-spacing: 1px; }
 
         .container {
             width: 100%;
-            max-width: 1600px;
+            max-width: 1440px;
             margin: 0 auto;
-            padding: 0 4%;
+            padding: 0 5%;
         }
 
-        .section-padding { padding: 7rem 0; }
-        .section-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-            margin-bottom: 3rem;
-            border-bottom: 1px solid var(--border-subtle);
-            padding-bottom: 1.5rem;
+        .section-padding { padding: 6rem 0; }
+
+        /* Hollow Outline Display Text */
+        .outline-text {
+            color: transparent;
+            -webkit-text-stroke: 1px rgba(255, 255, 255, 0.25);
+            transition: all 0.3s ease;
         }
 
-        .section-title {
-            font-size: clamp(2rem, 4vw, 3rem);
-            font-family: var(--font-display);
+        .outline-text-bright {
+            color: transparent;
+            -webkit-text-stroke: 1.5px var(--text-main);
         }
 
-        /* Highly Professional & Attractive Multi-Layered Animated Background */
-        .ambient-bg {
-            position: fixed;
-            top: 0; left: 0; width: 100vw; height: 100vh;
-            z-index: var(--z-bg);
-            overflow: hidden;
-            pointer-events: none;
-            background: radial-gradient(circle at 50% 30%, #0d091a 0%, #020204 70%);
-        }
-
-        .ambient-mesh {
-            position: absolute;
-            inset: -50%;
-            width: 200%; height: 200%;
-            background-image: 
-                radial-gradient(circle at 20% 30%, rgba(157, 78, 221, 0.15) 0%, transparent 40%),
-                radial-gradient(circle at 80% 70%, rgba(243, 213, 138, 0.1) 0%, transparent 45%),
-                radial-gradient(circle at 50% 90%, rgba(0, 242, 254, 0.08) 0%, transparent 50%);
-            animation: meshRotate 25s infinite linear;
-        }
-
-        .floating-orb {
-            position: absolute;
-            border-radius: 50%;
-            filter: blur(80px);
-            opacity: 0.5;
-            animation: orbFloat 15s infinite ease-in-out alternate;
-        }
-
-        .orb-1 { top: 10%; left: 15%; width: 45vw; height: 45vw; background: rgba(157, 78, 221, 0.18); }
-        .orb-2 { bottom: 5%; right: 10%; width: 50vw; height: 50vw; background: rgba(243, 213, 138, 0.12); animation-delay: -5s; }
-        .orb-3 { top: 40%; right: 30%; width: 35vw; height: 35vw; background: rgba(0, 242, 254, 0.08); animation-delay: -10s; }
-
-        @keyframes meshRotate {
-            0% { transform: rotate(0deg) scale(1); }
-            50% { transform: rotate(180deg) scale(1.1); }
-            100% { transform: rotate(360deg) scale(1); }
-        }
-
-        @keyframes orbFloat {
-            0% { transform: translate(0, 0) scale(1); }
-            100% { transform: translate(4%, 8%) scale(1.12); }
-        }
-
-        /* Glass Panel */
-        .glass-panel {
-            background: var(--bg-glass);
-            backdrop-filter: blur(24px);
-            -webkit-backdrop-filter: blur(24px);
-            border: 1px solid var(--border-glass);
-            border-radius: 20px;
-            box-shadow: 0 30px 60px rgba(0,0,0,0.5);
-        }
-
-        /* Buttons */
-        .btn {
+        /* Neon Glow Button */
+        .btn-neon {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            gap: 0.75rem;
-            padding: 1rem 2.5rem;
-            border-radius: 50px;
-            font-weight: 600;
-            font-size: 0.95rem;
-            letter-spacing: 1px;
+            gap: 0.6rem;
+            padding: 0.85rem 2rem;
+            background: var(--neon-green);
+            color: #000000;
+            font-family: var(--font-tech);
+            font-weight: 700;
+            font-size: 0.85rem;
             text-transform: uppercase;
-            transition: all 0.4s var(--ease-out-expo);
-            position: relative;
-            overflow: hidden;
-            z-index: 1;
+            letter-spacing: 1.5px;
+            border-radius: 4px;
+            box-shadow: 0 0 20px var(--neon-green-glow);
+            transition: all 0.3s ease;
         }
 
-        .btn::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(255,255,255,0.12);
-            transform: scaleX(0);
-            transform-origin: right;
-            transition: transform 0.4s var(--ease-out-expo);
-            z-index: -1;
+        .btn-neon:hover {
+            background: #ffffff;
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+            transform: translateY(-2px);
         }
 
-        .btn:hover::before { transform: scaleX(1); transform-origin: left; }
-
-        .btn-primary { background: var(--text-primary); color: var(--bg-base); }
-        .btn-accent {
-            background: linear-gradient(135deg, var(--brand-purple), #560bad);
-            color: white;
-            box-shadow: 0 10px 30px var(--brand-purple-glow);
+        .btn-outline-neon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.6rem;
+            padding: 0.85rem 2rem;
+            background: transparent;
+            color: var(--text-main);
+            font-family: var(--font-tech);
+            font-weight: 600;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+            transition: all 0.3s ease;
         }
-        .btn-outline {
-            border: 1px solid var(--border-glass);
-            background: rgba(255,255,255,0.03);
-        }
-        .btn-outline:hover { border-color: var(--brand-gold); color: var(--brand-gold); }
 
-        /* Navigation */
+        .btn-outline-neon:hover {
+            border-color: var(--neon-green);
+            color: var(--neon-green);
+            box-shadow: 0 0 15px var(--neon-green-glow);
+        }
+
+        /* Navigation Bar */
         .nav-wrapper {
             position: fixed;
             top: 0; left: 0; width: 100%;
             z-index: var(--z-nav);
-            transition: all 0.5s var(--ease-out-expo);
-            padding: 1.5rem 0;
-        }
-
-        .nav-wrapper.scrolled {
-            background: rgba(2, 2, 4, 0.9);
-            backdrop-filter: blur(24px);
-            -webkit-backdrop-filter: blur(24px);
-            padding: 1rem 0;
+            background: rgba(6, 6, 8, 0.85);
+            backdrop-filter: blur(16px);
             border-bottom: 1px solid var(--border-subtle);
+            padding: 1.2rem 0;
+            transition: all 0.3s ease;
         }
 
         .nav-inner {
@@ -246,18 +178,17 @@
         .brand-logo {
             display: flex;
             align-items: center;
-            gap: 15px;
-            font-family: var(--font-display);
-            font-size: 1.5rem;
-            font-weight: 700;
-            z-index: var(--z-nav) + 1;
+            gap: 12px;
+            font-family: var(--font-tech);
+            font-size: 1.25rem;
+            font-weight: 800;
+            letter-spacing: 2px;
         }
 
         .brand-logo img {
-            width: 44px; height: 44px;
+            width: 38px; height: 38px;
             border-radius: 50%;
-            border: 2px solid var(--brand-gold);
-            box-shadow: 0 0 20px var(--brand-gold-glow);
+            border: 1px solid var(--neon-green);
             object-fit: cover;
         }
 
@@ -267,948 +198,953 @@
             font-size: 0.85rem;
             font-weight: 500;
             text-transform: uppercase;
-            letter-spacing: 2px;
-            color: var(--text-secondary);
-            position: relative;
-            padding: 0.5rem 0;
+            letter-spacing: 1.5px;
+            color: var(--text-muted);
             transition: color 0.3s ease;
         }
 
-        .nav-link:hover, .nav-link.active { color: var(--text-primary); }
-
-        .nav-link::after {
-            content: '';
-            position: absolute;
-            bottom: -2px; left: 50%;
-            transform: translateX(-50%);
-            width: 4px; height: 4px;
-            border-radius: 50%;
-            background: var(--brand-purple);
-            opacity: 0;
-            transition: all 0.3s ease;
+        .nav-link:hover, .nav-link.active {
+            color: var(--neon-green);
         }
 
-        .nav-link.active::after { opacity: 1; width: 100%; border-radius: 2px; height: 2px; background: linear-gradient(90deg, var(--brand-gold), var(--brand-purple)); }
-
-        .nav-actions { display: flex; align-items: center; gap: 1rem; }
-        
-        .action-btn {
-            font-size: 1.1rem;
-            color: var(--text-primary);
-            width: 42px; height: 42px;
+        .social-icons-top { display: flex; gap: 1rem; align-items: center; }
+        .social-circle {
+            width: 32px; height: 32px;
             border-radius: 50%;
+            border: 1px solid var(--border-subtle);
             display: flex; align-items: center; justify-content: center;
-            background: var(--bg-elevated);
-            border: 1px solid var(--border-glass);
+            font-size: 0.85rem; color: var(--text-muted);
             transition: all 0.3s ease;
         }
-        .action-btn:hover { background: var(--brand-purple); border-color: var(--brand-purple); transform: translateY(-3px); box-shadow: 0 8px 25px var(--brand-purple-glow); }
+        .social-circle:hover {
+            border-color: var(--neon-green);
+            color: var(--neon-green);
+            transform: translateY(-2px);
+        }
 
-        .mobile-menu-btn { display: none; font-size: 1.5rem; z-index: 1000; }
+        .mobile-menu-btn { display: none; font-size: 1.4rem; color: var(--text-main); }
 
-        /* Hero Section */
-        .hero {
-            height: 100vh;
-            min-height: 800px;
-            position: relative;
+        /* Hero Section - Matching Mockup Center */
+        .hero-section {
+            min-height: 90vh;
+            padding-top: 140px;
+            padding-bottom: 60px;
             display: flex;
             align-items: center;
-            padding-top: 80px;
-            z-index: var(--z-base);
+            position: relative;
+            background: radial-gradient(circle at 65% 30%, rgba(157, 78, 221, 0.12) 0%, transparent 60%);
         }
 
-        .hero-content { max-width: 850px; }
-
-        .hero-label {
-            display: inline-flex;
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 1fr;
+            gap: 3rem;
             align-items: center;
-            gap: 10px;
-            padding: 8px 18px;
-            background: rgba(243, 213, 138, 0.1);
-            border: 1px solid rgba(243, 213, 138, 0.3);
-            border-radius: 30px;
-            color: var(--brand-gold);
-            font-size: 0.8rem;
-            font-weight: 600;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            margin-bottom: 2rem;
-            opacity: 0; transform: translateY(30px);
         }
 
         .hero-title {
-            font-size: clamp(3.2rem, 7.5vw, 6.5rem);
-            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 5.5vw, 4.2rem);
             line-height: 1.05;
             margin-bottom: 1.5rem;
-            opacity: 0; transform: translateY(30px);
+            font-weight: 900;
         }
 
-        .hero-desc {
-            font-size: clamp(1.1rem, 2vw, 1.25rem);
-            color: var(--text-secondary);
-            margin-bottom: 3rem;
-            max-width: 620px;
-            opacity: 0; transform: translateY(30px);
+        .hero-title span { display: block; }
+
+        .hero-sub {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            max-width: 480px;
+            margin-bottom: 2.2rem;
+            line-height: 1.7;
         }
 
-        .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; opacity: 0; transform: translateY(30px); }
-
-        /* Media Cards */
-        .grid { display: grid; gap: 2rem; }
-        .grid-cards { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
-        .grid-artists { grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
-
-        .media-card {
+        /* Stacked 3D Cards Visual in Hero (Inspired by "WAVE" cards in reference image) */
+        .hero-visual {
             position: relative;
-            border-radius: 18px;
-            background: var(--bg-surface);
-            padding: 14px;
-            transition: all 0.4s var(--ease-out-expo);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 440px;
+        }
+
+        .stacked-card {
+            position: absolute;
+            width: 260px;
+            height: 360px;
+            border-radius: 12px;
             border: 1px solid var(--border-subtle);
+            background: var(--bg-surface);
+            overflow: hidden;
+            transition: all 0.5s ease;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+        }
+
+        .stacked-card.card-left {
+            transform: translateX(-110px) scale(0.85) rotate(-8deg);
+            opacity: 0.6;
+            z-index: 1;
+        }
+
+        .stacked-card.card-right {
+            transform: translateX(110px) scale(0.85) rotate(8deg);
+            opacity: 0.6;
+            z-index: 1;
+        }
+
+        .stacked-card.card-center {
+            transform: scale(1) rotate(0deg);
+            z-index: 3;
+            border: 2px solid var(--neon-pink);
+            box-shadow: 0 0 35px var(--neon-pink-glow), 0 20px 50px rgba(0,0,0,0.9);
+        }
+
+        .stacked-card img {
+            width: 100%; height: 100%; object-fit: cover;
+        }
+
+        .card-badge {
+            position: absolute;
+            bottom: 20px; left: 20px;
+            font-family: var(--font-tech);
+            font-size: 1.4rem;
+            font-weight: 800;
+            text-shadow: 0 0 10px rgba(0,0,0,0.8);
+        }
+
+        /* Listen On Streaming Badges Section */
+        .listen-on-section {
+            background: var(--bg-surface);
+            border-top: 1px solid var(--border-subtle);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 3rem 0;
+        }
+
+        .listen-title {
+            font-size: 1.3rem;
+            margin-bottom: 1.8rem;
+            letter-spacing: 2px;
+        }
+
+        .listen-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .listen-card {
+            background: var(--bg-black);
+            border: 1px solid var(--border-subtle);
+            padding: 1.2rem;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            transition: all 0.3s ease;
             cursor: pointer;
         }
 
-        .media-card:hover {
-            background: var(--bg-elevated);
-            border-color: var(--border-glass);
-            transform: translateY(-8px);
-            box-shadow: 0 25px 50px rgba(0,0,0,0.6);
+        .listen-card:hover {
+            border-color: var(--neon-green);
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
         }
 
-        .media-thumb-wrap {
-            position: relative;
-            border-radius: 12px;
+        .listen-card i { font-size: 1.8rem; }
+
+        /* Infinite Scrolling Marquee Header for Artists */
+        .marquee-wrapper {
             overflow: hidden;
+            white-space: nowrap;
+            padding: 2rem 0;
+            border-top: 1px solid var(--border-subtle);
+            border-bottom: 1px solid var(--border-subtle);
+            background: #030305;
+        }
+
+        .marquee-content {
+            display: inline-block;
+            animation: marquee 25s linear infinite;
+        }
+
+        .marquee-text {
+            font-family: var(--font-tech);
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 900;
+            margin-right: 2rem;
+            text-transform: uppercase;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        /* Filter Pills */
+        .filter-row {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2.5rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-pill {
+            padding: 0.6rem 1.6rem;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            font-family: var(--font-tech);
+            font-size: 0.8rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .filter-pill:hover, .filter-pill.active {
+            background: var(--neon-green);
+            color: #000000;
+            border-color: var(--neon-green);
+            font-weight: 700;
+            box-shadow: 0 0 15px var(--neon-green-glow);
+        }
+
+        /* Songs / Media Grid */
+        .media-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .track-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 1rem;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            cursor: pointer;
+        }
+
+        .track-card:hover {
+            border-color: var(--neon-pink);
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8), 0 0 25px var(--neon-pink-glow);
+            z-index: 5;
+        }
+
+        .track-img-wrap {
+            position: relative;
             aspect-ratio: 16/9;
-            margin-bottom: 1.2rem;
-            background: #111;
+            border-radius: 6px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+            background: #000;
         }
 
-        .media-thumb-wrap.square { aspect-ratio: 1/1; }
-
-        .media-img {
-            width: 100%; height: 100%;
-            object-fit: cover;
-            transition: transform 0.7s var(--ease-out-expo);
+        .track-img-wrap img {
+            width: 100%; height: 100%; object-fit: cover;
+            transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
         }
 
-        .media-card:hover .media-img { transform: scale(1.08); }
+        .track-card:hover .track-img-wrap img {
+            transform: scale(1.12);
+        }
 
-        .play-overlay {
+        .genre-tag {
             position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0,0,0,0.55);
-            backdrop-filter: blur(3px);
+            top: 10px; left: 10px;
+            background: rgba(6, 6, 8, 0.85);
+            border: 1px solid var(--neon-green);
+            color: var(--neon-green);
+            font-family: var(--font-tech);
+            font-size: 0.65rem;
+            padding: 3px 8px;
+            border-radius: 3px;
+            text-transform: uppercase;
+        }
+
+        .play-btn-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0,0,0,0.5);
             display: flex;
             align-items: center;
             justify-content: center;
             opacity: 0;
-            transition: opacity 0.3s ease;
+            transition: opacity 0.4s ease;
         }
 
-        .media-card:hover .play-overlay { opacity: 1; }
+        .track-card:hover .play-btn-overlay { opacity: 1; }
 
-        .play-btn-lg {
-            width: 65px; height: 65px;
-            background: var(--brand-purple);
+        .circle-play-btn {
+            width: 54px; height: 54px;
+            background: var(--neon-green);
+            color: #000;
             border-radius: 50%;
             display: flex; align-items: center; justify-content: center;
-            font-size: 1.5rem; color: white;
-            transform: scale(0.8) translateY(20px);
-            transition: all 0.4s var(--ease-out-expo);
-            box-shadow: 0 10px 30px var(--brand-purple-glow);
-            padding-left: 4px;
+            font-size: 1.2rem;
+            box-shadow: 0 0 20px var(--neon-green-glow);
+            padding-left: 3px;
+            transform: scale(0.5);
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
-
-        .media-card:hover .play-btn-lg { transform: scale(1) translateY(0); }
-        .play-btn-lg:hover { background: white; color: black; }
-
-        .media-info { padding: 0.2rem 4px; }
         
-        .media-genre-badge {
-            font-size: 0.7rem;
-            padding: 4px 10px;
-            border-radius: 6px;
-            background: rgba(255,255,255,0.06);
-            border: 1px solid var(--border-subtle);
-            color: var(--brand-gold);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 0.6rem;
-            display: inline-block;
+        .track-card:hover .circle-play-btn {
+            transform: scale(1);
         }
 
-        .media-title {
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin-bottom: 0.3rem;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
+        .track-title {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
         }
 
-        .media-artist {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            margin-bottom: 0.8rem;
+        .track-artist {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-bottom: 12px;
         }
 
-        .media-stats {
+        .track-footer {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-size: 0.8rem;
-            color: var(--text-tertiary);
             border-top: 1px solid var(--border-subtle);
-            padding-top: 0.8rem;
+            padding-top: 10px;
+            font-size: 0.75rem;
+            color: var(--text-muted);
         }
 
-        /* Artist Circular Cards */
-        .artist-card {
-            text-align: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
+        /* High-Contrast Artist Grid (Inspired by black and white portraits in mockup) */
+        .artist-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .artist-card-web3 {
             background: var(--bg-surface);
-            padding: 2rem 1rem;
-            border-radius: 20px;
             border: 1px solid var(--border-subtle);
-        }
-        
-        .artist-card:hover { 
-            transform: translateY(-8px); 
-            background: var(--bg-elevated);
-            border-color: var(--brand-purple);
-            box-shadow: 0 20px 40px var(--brand-purple-glow);
-        }
-        
-        .artist-img-wrap {
-            width: 130px; height: 130px;
-            border-radius: 50%;
+            border-radius: 8px;
             overflow: hidden;
-            margin: 0 auto 1.2rem;
-            border: 3px solid var(--border-glass);
+            text-align: center;
             transition: all 0.3s ease;
+            cursor: pointer;
         }
 
-        .artist-card:hover .artist-img-wrap { border-color: var(--brand-gold); }
-        .artist-img-wrap img { width: 100%; height: 100%; object-fit: cover; }
-
-        /* Filter Groups */
-        .filter-group {
-            display: flex; gap: 1rem; margin-bottom: 3rem; flex-wrap: wrap;
-        }
-        .filter-btn {
-            padding: 10px 24px; border-radius: 30px;
-            background: var(--bg-surface); border: 1px solid var(--border-subtle);
-            color: var(--text-secondary); font-size: 0.9rem; transition: all 0.3s;
-            font-weight: 500; letter-spacing: 0.5px;
-        }
-        .filter-btn:hover, .filter-btn.active {
-            background: linear-gradient(135deg, var(--brand-purple), #560bad);
-            color: white; border-color: transparent;
-            box-shadow: 0 8px 25px var(--brand-purple-glow);
+        .artist-card-web3:hover {
+            border-color: var(--neon-green);
+            transform: translateY(-6px);
+            box-shadow: 0 0 25px var(--neon-green-glow);
         }
 
-        /* Global Player */
-        .player-wrapper {
-            position: fixed;
-            bottom: 0; left: 0; width: 100%;
-            background: rgba(8, 8, 14, 0.96);
-            backdrop-filter: blur(35px);
-            -webkit-backdrop-filter: blur(35px);
-            border-top: 1px solid var(--border-glass);
-            z-index: var(--z-player);
-            transform: translateY(100%);
-            transition: transform 0.6s var(--ease-out-expo);
+        .artist-photo {
+            aspect-ratio: 3/4;
+            filter: grayscale(100%) contrast(120%);
+            transition: filter 0.4s ease;
+            overflow: hidden;
+            background: #111;
         }
 
-        .player-wrapper.active { transform: translateY(0); }
-
-        .player-progress-area {
-            position: absolute; top: -4px; left: 0; width: 100%;
-            height: 6px; background: rgba(255,255,255,0.06);
-            cursor: pointer; transition: height 0.2s ease;
-        }
-        .player-progress-area:hover { height: 10px; top: -6px; }
-
-        .player-progress-bar {
-            height: 100%; width: 0%;
-            background: linear-gradient(90deg, var(--brand-purple), var(--brand-gold));
-            position: relative;
-            border-radius: 0 4px 4px 0;
+        .artist-card-web3:hover .artist-photo {
+            filter: grayscale(0%) contrast(100%);
         }
 
-        .player-inner {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 1rem 3%;
-            height: 95px;
+        .artist-photo img {
+            width: 100%; height: 100%; object-fit: cover;
         }
 
-        .player-track-info { display: flex; align-items: center; gap: 1.2rem; width: 30%; }
-        .player-thumb { width: 65px; height: 65px; border-radius: 10px; object-fit: cover; }
-        .player-meta h4 { font-size: 1rem; margin-bottom: 2px; }
-        .player-meta p { font-size: 0.85rem; color: var(--text-secondary); }
-
-        .player-controls-main { display: flex; flex-direction: column; align-items: center; width: 40%; }
-        .control-buttons { display: flex; align-items: center; gap: 1.8rem; }
-        .btn-ctrl { color: var(--text-secondary); font-size: 1.25rem; transition: color 0.2s; }
-        .btn-ctrl:hover { color: white; }
-
-        .btn-play {
-            width: 48px; height: 48px; border-radius: 50%;
-            background: white; color: black;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 1.2rem; transition: transform 0.2s;
-            box-shadow: 0 5px 20px rgba(255,255,255,0.3);
-        }
-        .btn-play:hover { transform: scale(1.1); }
-
-        .player-time {
-            display: flex; justify-content: space-between; width: 100%; max-width: 400px;
-            font-size: 0.75rem; color: var(--text-tertiary); margin-top: 6px;
+        .artist-info-box {
+            padding: 1.2rem 1rem;
         }
 
-        .player-actions { display: flex; align-items: center; justify-content: flex-end; gap: 1.2rem; width: 30%; }
-        .volume-control { display: flex; align-items: center; gap: 12px; width: 130px; }
-        .vol-slider { flex-grow: 1; height: 5px; background: rgba(255,255,255,0.1); border-radius: 3px; cursor: pointer; position: relative; }
-        .vol-level { position: absolute; top: 0; left: 0; height: 100%; width: 80%; background: var(--brand-gold); border-radius: 3px; }
-
-        /* Overlays & Modals */
-        .overlay {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(2, 2, 5, 0.96); backdrop-filter: blur(15px);
-            z-index: var(--z-modal); display: flex; align-items: center; justify-content: center;
-            opacity: 0; visibility: hidden; transition: all 0.4s var(--ease-out-expo);
-        }
-        .overlay.active { opacity: 1; visibility: visible; }
-        
-        .overlay-close {
-            position: absolute; top: 35px; right: 45px;
-            font-size: 2.2rem; color: white; transition: transform 0.3s;
-        }
-        .overlay-close:hover { transform: rotate(90deg); color: var(--brand-gold); }
-
-        .search-container { width: 90%; max-width: 850px; text-align: center; }
-        .search-input {
-            width: 100%; background: transparent; border: none;
-            border-bottom: 2px solid var(--border-glass);
-            padding: 20px 0; font-size: clamp(1.8rem, 4vw, 3.5rem);
-            color: white; font-family: var(--font-display); outline: none;
-            transition: border-color 0.3s;
-        }
-        .search-input:focus { border-color: var(--brand-purple); }
-
-        .video-container {
-            width: 90%; max-width: 1200px; aspect-ratio: 16/9;
-            background: black; border-radius: 16px; overflow: hidden;
-            box-shadow: 0 0 60px rgba(157,78,221,0.3); position: relative;
-        }
-        .video-container iframe { width: 100%; height: 100%; border: none; }
-
-        #app-root {
-            min-height: 85vh;
-            position: relative;
-            z-index: var(--z-base);
-            padding-bottom: 120px;
+        .artist-name-tech {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 4px;
         }
 
-        .page-header {
-            padding: 170px 0 60px;
-            background: linear-gradient(180deg, var(--bg-elevated) 0%, var(--bg-base) 100%);
-            border-bottom: 1px solid var(--border-subtle);
+        /* Web3 Indigo Deep Purple Footer (Matches right mockup panel) */
+        footer {
+            background: var(--bg-purple-footer);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 5rem 0 2rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 3rem;
             margin-bottom: 4rem;
         }
 
-        /* Footer */
-        footer {
-            background: #010103; padding: 6rem 0 2rem;
-            border-top: 1px solid var(--border-subtle);
-            position: relative; z-index: var(--z-base);
+        .footer-brand {
+            font-family: var(--font-tech);
+            font-size: 1.8rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
         }
-        
-        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 4rem; margin-bottom: 4rem; }
-        .footer-desc { color: var(--text-secondary); margin-top: 1.5rem; font-size: 0.95rem; }
-        
-        .social-links { display: flex; gap: 1rem; margin-top: 1.5rem; }
-        .social-link {
-            width: 44px; height: 44px; border-radius: 50%;
-            background: var(--bg-surface); display: flex; align-items: center; justify-content: center;
-            border: 1px solid var(--border-glass); transition: all 0.3s;
-        }
-        .social-link:hover { background: var(--brand-purple); color: white; border-color: var(--brand-purple); transform: translateY(-3px); }
 
-        .footer-title { font-family: var(--font-display); font-size: 1.1rem; margin-bottom: 1.5rem; }
+        .footer-desc {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9rem;
+            max-width: 400px;
+            line-height: 1.7;
+        }
+
         .footer-links li { margin-bottom: 0.8rem; }
-        .footer-links a { color: var(--text-secondary); transition: color 0.3s; font-size: 0.95rem; }
-        .footer-links a:hover { color: var(--brand-gold); }
-        .copyright { text-align: center; color: var(--text-tertiary); font-size: 0.85rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); }
+        .footer-links a { color: rgba(255,255,255,0.7); font-size: 0.9rem; transition: color 0.2s; }
+        .footer-links a:hover { color: var(--neon-green); }
 
-        .reveal { opacity: 0; transform: translateY(40px); transition: all 0.8s var(--ease-out-expo); }
-        .reveal.active { opacity: 1; transform: translateY(0); }
-        
-        #loader {
-            position: fixed; top:0; left:0; width:100%; height:100%;
-            background: var(--bg-base); z-index: 9999;
+        .copyright-bar {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 0.8rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        /* Floating Audio Player */
+        .player-bar {
+            position: fixed;
+            bottom: 0; left: 0; width: 100%;
+            background: rgba(13, 14, 18, 0.96);
+            backdrop-filter: blur(20px);
+            border-top: 1px solid var(--border-neon);
+            z-index: var(--z-player);
+            transform: translateY(100%);
+            transition: transform 0.4s ease;
+        }
+
+        .player-bar.active { transform: translateY(0); }
+
+        .player-progress {
+            height: 4px; background: rgba(255,255,255,0.1);
+            cursor: pointer; position: relative;
+        }
+
+        .player-progress-filled {
+            height: 100%; width: 0%;
+            background: var(--neon-green);
+            box-shadow: 0 0 10px var(--neon-green-glow);
+        }
+
+        .player-inner-flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.8rem 5%;
+        }
+
+        .player-track-details { display: flex; align-items: center; gap: 1rem; width: 30%; }
+        .player-thumb-img { width: 52px; height: 52px; border-radius: 4px; object-fit: cover; }
+        .player-meta h4 { font-size: 0.95rem; margin-bottom: 2px; }
+        .player-meta p { font-size: 0.8rem; color: var(--text-muted); }
+
+        .player-ctrls { display: flex; flex-direction: column; align-items: center; width: 40%; }
+        .ctrl-btns { display: flex; align-items: center; gap: 1.5rem; }
+        .btn-ctrl-icon { color: var(--text-muted); font-size: 1.1rem; transition: color 0.2s; }
+        .btn-ctrl-icon:hover { color: var(--neon-green); }
+
+        .btn-play-main {
+            width: 42px; height: 42px; border-radius: 50%;
+            background: var(--neon-green); color: #000;
             display: flex; align-items: center; justify-content: center;
-            transition: opacity 0.5s ease;
-        }
-        .loader-logo { font-family: var(--font-display); font-size: 2.2rem; animation: pulse 1.5s infinite alternate; }
-        @keyframes pulse { from { opacity: 0.4; } to { opacity: 1; text-shadow: 0 0 30px var(--brand-purple); } }
-
-        @media (max-width: 1024px) {
-            .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+            font-size: 1.1rem; box-shadow: 0 0 15px var(--neon-green-glow);
+            padding-left: 2px;
         }
 
-        @media (max-width: 768px) {
+        /* Search Overlay & Video Overlay */
+        .overlay-screen {
+            position: fixed; inset: 0;
+            background: rgba(6, 6, 8, 0.96);
+            backdrop-filter: blur(20px);
+            z-index: var(--z-modal);
+            display: flex; align-items: center; justify-content: center;
+            opacity: 0; pointer-events: none;
+            transition: all 0.3s ease;
+        }
+
+        .overlay-screen.active { opacity: 1; pointer-events: auto; }
+        .close-overlay-btn {
+            position: absolute; top: 30px; right: 40px;
+            font-size: 2rem; color: #fff; transition: color 0.2s;
+        }
+        .close-overlay-btn:hover { color: var(--neon-green); }
+
+        .search-box-wrap { width: 90%; max-width: 800px; }
+        .search-input-field {
+            width: 100%; background: transparent;
+            border: none; border-bottom: 2px solid var(--border-subtle);
+            padding: 15px 0; font-family: var(--font-tech);
+            font-size: clamp(1.5rem, 3vw, 2.5rem); color: #fff; outline: none;
+        }
+        .search-input-field:focus { border-color: var(--neon-green); }
+
+        .video-box-wrap {
+            width: 90%; max-width: 1000px; aspect-ratio: 16/9;
+            background: #000; border-radius: 8px; overflow: hidden;
+            border: 1px solid var(--neon-pink);
+            box-shadow: 0 0 40px var(--neon-pink-glow);
+        }
+        .video-box-wrap iframe { width: 100%; height: 100%; border: none; }
+
+        @media (max-width: 900px) {
+            .hero-grid { grid-template-columns: 1fr; text-align: center; }
+            .hero-sub { margin: 0 auto 2rem; }
+            .hero-visual { height: 320px; }
+            .stacked-card { width: 200px; height: 280px; }
+            .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+            .nav-links { display: none; }
             .mobile-menu-btn { display: block; }
-            .nav-links {
-                position: fixed; top: 0; right: -100%; width: 100%; height: 100vh;
-                background: rgba(2, 2, 5, 0.98); backdrop-filter: blur(25px);
-                flex-direction: column; align-items: center; justify-content: center;
-                transition: right 0.5s var(--ease-out-expo);
-            }
-            .nav-links.active { right: 0; }
-            .nav-link { font-size: 1.4rem; font-family: var(--font-display); margin: 12px 0; }
-            .section-header { flex-direction: column; align-items: flex-start; gap: 1rem; }
-            .footer-grid { grid-template-columns: 1fr; }
-            .player-inner { height: auto; flex-direction: column; padding: 12px; gap: 12px; }
-            .player-track-info, .player-controls-main { width: 100%; justify-content: center; }
-            .player-actions { display: none; }
         }
     </style>
 </head>
 <body>
 
-    <!-- Initial Loader -->
-    <div id="loader">
-        <div class="loader-logo gradient-text">RHYTHM</div>
-    </div>
-
-    <!-- Attractive Multi-Layered Animated Background -->
-    <div class="ambient-bg">
-        <div class="ambient-mesh"></div>
-        <div class="floating-orb orb-1"></div>
-        <div class="floating-orb orb-2"></div>
-        <div class="floating-orb orb-3"></div>
-    </div>
-
-    <!-- Navigation -->
-    <nav class="nav-wrapper" id="navbar">
+    <!-- Navigation Header -->
+    <nav class="nav-wrapper">
         <div class="container nav-inner">
             <a href="#home" class="brand-logo">
-                <img src="https://yt3.googleusercontent.com/ytc/AIdro_k6_U-Q5G_t7_g_6_M-788_0353_6_Z_z34_Z_C=s900-c-k-c0x00ffffff-no-rj" alt="Rhythm Entertainments Logo">
+                <img src="https://raw.githubusercontent.com/varun-0765/Rythm-portfolio/main/Rythm_logo.png" alt="Rhythm Entertainments Logo">
                 RHYTHM
             </a>
             
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#home" class="nav-link">Home</a></li>
+            <ul class="nav-links" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
                 <li><a href="#songs" class="nav-link">Songs</a></li>
                 <li><a href="#artists" class="nav-link">Artists</a></li>
                 <li><a href="#videos" class="nav-link">Videos</a></li>
-                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
 
-            <div class="nav-actions">
-                <button class="action-btn" onclick="ui.toggleSearch()" title="Global Search">
+            <div class="social-icons-top">
+                <button onclick="ui.toggleSearch()" class="social-circle" title="Search Catalog">
                     <i class="fas fa-search"></i>
                 </button>
-                <button class="mobile-menu-btn" onclick="ui.toggleMenu()" aria-label="Toggle Menu">
-                    <i class="fas fa-bars"></i>
-                </button>
+                <a href="https://www.youtube.com/@Rhythm.entertainments" target="_blank" class="social-circle" title="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="social-circle" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
         </div>
     </nav>
 
-    <!-- Search Overlay -->
-    <div class="overlay" id="searchOverlay">
-        <button class="overlay-close" onclick="ui.toggleSearch()"><i class="fas fa-times"></i></button>
-        <div class="search-container">
-            <input type="text" class="search-input" id="searchInput" placeholder="Search tracks, artists, genres..." autocomplete="off">
-            <div id="searchResults" style="margin-top: 3rem; text-align: left; max-height: 50vh; overflow-y: auto;"></div>
+    <!-- Main Dynamic Router View -->
+    <main id="app-content">
+        <!-- Home Section (Default View) -->
+        <section class="hero-section" id="home">
+            <div class="container hero-grid">
+                <div>
+                    <h1 class="hero-title">
+                        <span>RHYTHM</span>
+                        <span class="outline-text-bright">RECORD</span>
+                        <span style="color:var(--neon-green);">LABEL</span>
+                    </h1>
+                    <p class="hero-sub">
+                        Premium Punjabi, Haryanvi, and Hindi sounds shaping global modern music culture. Explore exclusive tracks, official videos, and artist releases.
+                    </p>
+                    <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+                        <a href="#songs" class="btn-neon"><i class="fas fa-play"></i> EXPLORE CATALOG</a>
+                        <a href="#artists" class="btn-outline-neon">VIEW ARTISTS</a>
+                    </div>
+                </div>
+
+                <!-- Stacked Cover Visual inspired by reference mockup -->
+                <div class="hero-visual">
+                    <div class="stacked-card card-left">
+                        <img src="https://img.youtube.com/vi/-V8DOUkTWGQ/maxresdefault.jpg" alt="Gande Kaand Cover">
+                        <div class="card-badge">HARYANVI</div>
+                    </div>
+                    <div class="stacked-card card-center">
+                        <img src="https://img.youtube.com/vi/2jUXomlV0s4/maxresdefault.jpg" alt="Lihaaz Cover">
+                        <div class="card-badge" style="color:var(--neon-green);">LIHAAZ</div>
+                    </div>
+                    <div class="stacked-card card-right">
+                        <img src="https://img.youtube.com/vi/tMvyKI1tyZk/maxresdefault.jpg" alt="Paindi Dhakk Cover">
+                        <div class="card-badge">PUNJABI</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- "Listen On" Streaming Badges (Matched right mockup panel) -->
+        <section class="listen-on-section">
+            <div class="container">
+                <h3 class="listen-title font-tech">LISTEN ON</h3>
+                <div class="listen-grid">
+                    <div class="listen-card" onclick="window.open('https://www.youtube.com/@Rhythm.entertainments')">
+                        <i class="fab fa-youtube" style="color:#ff0000;"></i>
+                        <div>
+                            <div style="font-size:0.75rem; color:var(--text-muted);">STREAM ON</div>
+                            <div style="font-weight:700; font-family:var(--font-tech);">YouTube Music</div>
+                        </div>
+                    </div>
+                    <div class="listen-card">
+                        <i class="fab fa-spotify" style="color:#1db954;"></i>
+                        <div>
+                            <div style="font-size:0.75rem; color:var(--text-muted);">STREAM ON</div>
+                            <div style="font-weight:700; font-family:var(--font-tech);">Spotify</div>
+                        </div>
+                    </div>
+                    <div class="listen-card">
+                        <i class="fab fa-apple" style="color:#ffffff;"></i>
+                        <div>
+                            <div style="font-size:0.75rem; color:var(--text-muted);">STREAM ON</div>
+                            <div style="font-weight:700; font-family:var(--font-tech);">Apple Music</div>
+                        </div>
+                    </div>
+                    <div class="listen-card">
+                        <i class="fas fa-music" style="color:var(--neon-green);"></i>
+                        <div>
+                            <div style="font-size:0.75rem; color:var(--text-muted);">STREAM ON</div>
+                            <div style="font-weight:700; font-family:var(--font-tech);">Wynk & JioSaavn</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Infinite Marquee Section Header -->
+        <div class="marquee-wrapper">
+            <div class="marquee-content">
+                <span class="marquee-text outline-text">ARTISTS</span>
+                <span class="marquee-text" style="color:var(--neon-green);">ARTISTS</span>
+                <span class="marquee-text outline-text">ARTISTS</span>
+                <span class="marquee-text" style="color:var(--neon-pink);">ARTISTS</span>
+                <span class="marquee-text outline-text">ARTISTS</span>
+                <span class="marquee-text" style="color:var(--neon-green);">ARTISTS</span>
+            </div>
         </div>
-    </div>
 
-    <!-- Video Modal -->
-    <div class="overlay" id="videoModal">
-        <button class="overlay-close" onclick="ui.closeVideo()"><i class="fas fa-times"></i></button>
-        <div class="video-container" id="videoContainer"></div>
-    </div>
+        <!-- Featured Artists Roster Section -->
+        <section class="section-padding" id="artists">
+            <div class="container">
+                <div style="margin-bottom:3rem;">
+                    <h2 class="font-tech" style="font-size:2rem; margin-bottom:0.5rem;">OFFICIAL <span style="color:var(--neon-green);">ROSTER</span></h2>
+                    <p style="color:var(--text-muted);">Top hitmakers and vocalists powering Rhythm Entertainments.</p>
+                </div>
 
-    <!-- Hidden YouTube Audio Player Container -->
-    <div id="yt-audio-player" style="display:none;"></div>
+                <div class="artist-grid" id="artist-roster"></div>
+            </div>
+        </section>
 
-    <!-- Main Dynamic Application Content -->
-    <main id="app-root"></main>
+        <!-- Songs Catalog with Hindi, Punjabi, Haryanvi Filtering -->
+        <section class="section-padding" id="songs" style="background: var(--bg-surface); border-top:1px solid var(--border-subtle);">
+            <div class="container">
+                <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:2.5rem; flex-wrap:wrap; gap:1rem;">
+                    <div>
+                        <h2 class="font-tech" style="font-size:2rem; margin-bottom:0.5rem;">RELEASE <span style="color:var(--neon-pink);">CATALOG</span></h2>
+                        <p style="color:var(--text-muted);">Filter releases by official language & genre.</p>
+                    </div>
 
-    <!-- Footer -->
+                    <div class="filter-row" style="margin-bottom:0;">
+                        <button class="filter-pill active" onclick="ui.filterGenre('All', this)">ALL TRACKS</button>
+                        <button class="filter-pill" onclick="ui.filterGenre('Punjabi', this)">PUNJABI</button>
+                        <button class="filter-pill" onclick="ui.filterGenre('Haryanvi', this)">HARYANVI</button>
+                        <button class="filter-pill" onclick="ui.filterGenre('Hindi', this)">HINDI</button>
+                    </div>
+                </div>
+
+                <div class="media-grid" id="catalog-grid"></div>
+            </div>
+        </section>
+
+        <!-- Official Videos Section -->
+        <section class="section-padding" id="videos">
+            <div class="container">
+                <div style="margin-bottom:3rem;">
+                    <h2 class="font-tech" style="font-size:2rem; margin-bottom:0.5rem;">MUSIC <span style="color:var(--neon-green);">VIDEOS</span></h2>
+                    <p style="color:var(--text-muted);">Cinematic visual releases from YouTube.</p>
+                </div>
+
+                <div class="media-grid" id="video-grid"></div>
+            </div>
+        </section>
+
+        <!-- About Label Section -->
+        <section class="section-padding" id="about" style="background:var(--bg-surface); border-top:1px solid var(--border-subtle);">
+            <div class="container" style="max-width:900px; text-align:center;">
+                <img src="https://raw.githubusercontent.com/varun-0765/Rythm-portfolio/main/Rythm_logo.png" style="width:120px; height:120px; border-radius:50%; border:2px solid var(--neon-green); margin: 0 auto 2rem; object-fit:cover;">
+                <h2 class="font-tech" style="font-size:2.2rem; margin-bottom:1rem;">ABOUT <span style="color:var(--neon-green);">RHYTHM</span></h2>
+                <p style="color:var(--text-muted); font-size:1.1rem; line-height:1.8; margin-bottom:2.5rem;">
+                    Rhythm Entertainments is well known as a pioneer Punjabi, Haryanvi, and Hindi music label. Boasting over 230,000+ subscribers and millions of streams, we deliver official audio, lyrical visualizations, and high-quality cinematic music videos.
+                </p>
+                
+                <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:1.5rem;">
+                    <div style="background:var(--bg-black); padding:2rem; border-radius:8px; border:1px solid var(--border-subtle);">
+                        <div class="font-tech" style="font-size:2rem; color:var(--neon-green);">230K+</div>
+                        <div style="font-size:0.8rem; color:var(--text-muted); margin-top:5px;">YOUTUBE SUBSCRIBERS</div>
+                    </div>
+                    <div style="background:var(--bg-black); padding:2rem; border-radius:8px; border:1px solid var(--border-subtle);">
+                        <div class="font-tech" style="font-size:2rem; color:var(--neon-pink);">1M+</div>
+                        <div style="font-size:0.8rem; color:var(--text-muted); margin-top:5px;">GLOBAL STREAMS</div>
+                    </div>
+                    <div style="background:var(--bg-black); padding:2rem; border-radius:8px; border:1px solid var(--border-subtle);">
+                        <div class="font-tech" style="font-size:2rem; color:var(--neon-cyan);">100%</div>
+                        <div style="font-size:0.8rem; color:var(--text-muted); margin-top:5px;">AUTHENTIC RELEASES</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section-padding" id="contact">
+            <div class="container" style="max-width:800px;">
+                <div style="text-align:center; margin-bottom:3rem;">
+                    <h2 class="font-tech" style="font-size:2rem; margin-bottom:0.5rem;">GET IN <span style="color:var(--neon-green);">TOUCH</span></h2>
+                    <p style="color:var(--text-muted);">For bookings, distribution inquiries, and submissions.</p>
+                </div>
+
+                <form style="background:var(--bg-surface); border:1px solid var(--border-subtle); padding:2.5rem; border-radius:8px;" onsubmit="event.preventDefault(); alert('Message submitted successfully!');">
+                    <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; margin-bottom:1.5rem;">
+                        <div>
+                            <label style="font-family:var(--font-tech); font-size:0.75rem; color:var(--text-muted); display:block; margin-bottom:8px;">NAME</label>
+                            <input type="text" required placeholder="Your Full Name" style="width:100%; padding:12px; background:var(--bg-black); border:1px solid var(--border-subtle); color:#fff; border-radius:4px; outline:none;">
+                        </div>
+                        <div>
+                            <label style="font-family:var(--font-tech); font-size:0.75rem; color:var(--text-muted); display:block; margin-bottom:8px;">EMAIL</label>
+                            <input type="email" required placeholder="name@example.com" style="width:100%; padding:12px; background:var(--bg-black); border:1px solid var(--border-subtle); color:#fff; border-radius:4px; outline:none;">
+                        </div>
+                    </div>
+                    <div style="margin-bottom:1.5rem;">
+                        <label style="font-family:var(--font-tech); font-size:0.75rem; color:var(--text-muted); display:block; margin-bottom:8px;">MESSAGE</label>
+                        <textarea rows="4" required placeholder="Write your message here..." style="width:100%; padding:12px; background:var(--bg-black); border:1px solid var(--border-subtle); color:#fff; border-radius:4px; outline:none; resize:none;"></textarea>
+                    </div>
+                    <button type="submit" class="btn-neon" style="width:100%;">SEND MESSAGE</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Web3 Indigo Bottom Footer (Matches right panel of mockup) -->
     <footer>
         <div class="container">
             <div class="footer-grid">
                 <div>
-                    <a href="#home" class="brand-logo" style="margin-bottom: 1rem;">
-                        <img src="https://yt3.googleusercontent.com/ytc/AIdro_k6_U-Q5G_t7_g_6_M-788_0353_6_Z_z34_Z_C=s900-c-k-c0x00ffffff-no-rj" alt="Logo">
+                    <div class="footer-brand" style="display:flex; align-items:center; gap:10px;">
+                        <img src="https://raw.githubusercontent.com/varun-0765/Rythm-portfolio/main/Rythm_logo.png" style="width:36px; height:36px; border-radius:50%; border:1px solid var(--neon-green);" alt="Logo">
                         RHYTHM
-                    </a>
-                    <p class="footer-desc">Premium music label bringing you the best of Punjabi, Haryanvi, and Hindi sounds. Setting the rhythm of modern global culture.</p>
-                    <div class="social-links">
-                        <a href="https://www.youtube.com/@Rhythm.entertainments" target="_blank" class="social-link" title="YouTube"><i class="fab fa-youtube"></i></a>
-                        <a href="https://instagram.com" target="_blank" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="https://facebook.com" target="_blank" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
                     </div>
+                    <p class="footer-desc">
+                        Official music label delivering authentic Punjabi, Haryanvi, and Hindi releases globally. Setting the rhythm of modern web3 audio generation.
+                    </p>
                 </div>
-                
+
                 <div>
-                    <h4 class="footer-title">Discover</h4>
+                    <h4 class="font-tech" style="font-size:0.95rem; margin-bottom:1.2rem; color:var(--neon-green);">QUICK LINKS</h4>
                     <ul class="footer-links">
-                        <li><a href="#songs">Latest Releases</a></li>
-                        <li><a href="#artists">Our Roster</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#songs">Music Catalog</a></li>
+                        <li><a href="#artists">Artist Roster</a></li>
                         <li><a href="#videos">Music Videos</a></li>
-                        <li><a href="#home">Trending Hits</a></li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h4 class="footer-title">Company</h4>
-                    <ul class="footer-links">
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#contact">Contact Support</a></li>
-                        <li><a href="#contact">Privacy Policy</a></li>
-                        <li><a href="#contact">Terms of Service</a></li>
                     </ul>
                 </div>
 
                 <div>
-                    <h4 class="footer-title">Newsletter</h4>
-                    <p class="footer-desc" style="margin-top:0; margin-bottom: 1rem;">Join our exclusive drop list for early access.</p>
-                    <div style="display:flex;">
-                        <input type="email" placeholder="Email Address" style="padding:12px 15px; border:none; background:var(--bg-elevated); color:white; border-radius:8px 0 0 8px; outline:none; flex-grow:1; border:1px solid var(--border-subtle);">
-                        <button style="background:linear-gradient(135deg, var(--brand-purple), #560bad); padding:0 22px; border-radius:0 8px 8px 0; font-weight:bold; cursor:pointer;" onclick="alert('Thank you for subscribing to Rhythm Entertainments!')">JOIN</button>
-                    </div>
+                    <h4 class="font-tech" style="font-size:0.95rem; margin-bottom:1.2rem; color:var(--neon-green);">CONNECT</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://www.youtube.com/@Rhythm.entertainments" target="_blank">YouTube Channel</a></li>
+                        <li><a href="#contact">Contact Support</a></li>
+                        <li><a href="#contact">Privacy Policy</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="copyright">
-                &copy; <span id="year"></span> Rhythm Entertainments. All Rights Reserved. Official Music Label.
+
+            <div class="copyright-bar">
+                &copy; <span id="year">2026</span> Rhythm Entertainments. All Rights Reserved.
             </div>
         </div>
     </footer>
 
-    <!-- Global Floating Music Player -->
-    <div class="player-wrapper" id="playerBar">
-        <div class="player-progress-area" onclick="player.seek(event)" id="progressContainer">
-            <div class="player-progress-bar" id="progressBar"></div>
+    <!-- Global Search Modal -->
+    <div class="overlay-screen" id="searchOverlay">
+        <button class="close-overlay-btn" onclick="ui.toggleSearch()"><i class="fas fa-times"></i></button>
+        <div class="search-box-wrap">
+            <input type="text" class="search-input-field" id="searchInput" placeholder="Search track, artist or genre..." autocomplete="off">
+            <div id="searchResults" style="margin-top:2rem; max-height:50vh; overflow-y:auto;"></div>
         </div>
-        <div class="player-inner">
-            <div class="player-track-info">
-                <img src="" alt="Cover" class="player-thumb" id="playerThumb">
+    </div>
+
+    <!-- YouTube Video Modal -->
+    <div class="overlay-screen" id="videoModal">
+        <button class="close-overlay-btn" onclick="ui.closeVideo()"><i class="fas fa-times"></i></button>
+        <div class="video-box-wrap" id="videoBox"></div>
+    </div>
+
+    <!-- Hidden Iframe Element for Audio Engine -->
+    <div id="yt-engine" style="display:none;"></div>
+
+    <!-- Floating Web3 Audio Player Bar -->
+    <div class="player-bar" id="playerBar">
+        <div class="player-progress" onclick="player.seek(event)">
+            <div class="player-progress-filled" id="playerProgressBar"></div>
+        </div>
+        <div class="player-inner-flex">
+            <div class="player-track-details">
+                <img src="" class="player-thumb-img" id="playerThumb" alt="Cover">
                 <div class="player-meta">
-                    <h4 id="playerTitle">Select a Track</h4>
+                    <h4 id="playerTitle">Select Track</h4>
                     <p id="playerArtist">Rhythm Entertainments</p>
                 </div>
             </div>
-            
-            <div class="player-controls-main">
-                <div class="control-buttons">
-                    <button class="btn-ctrl" title="Shuffle"><i class="fas fa-random"></i></button>
-                    <button class="btn-ctrl" onclick="player.prev()" title="Previous"><i class="fas fa-step-backward"></i></button>
-                    <button class="btn-play" id="playPauseBtn" onclick="player.togglePlay()" title="Play/Pause"><i class="fas fa-play" style="margin-left:3px;"></i></button>
-                    <button class="btn-ctrl" onclick="player.next()" title="Next"><i class="fas fa-step-forward"></i></button>
-                    <button class="btn-ctrl" title="Repeat"><i class="fas fa-redo"></i></button>
+
+            <div class="player-ctrls">
+                <div class="ctrl-btns">
+                    <button class="btn-ctrl-icon" onclick="player.prev()"><i class="fas fa-step-backward"></i></button>
+                    <button class="btn-play-main" id="playPauseBtn" onclick="player.togglePlay()"><i class="fas fa-play"></i></button>
+                    <button class="btn-ctrl-icon" onclick="player.next()"><i class="fas fa-step-forward"></i></button>
                 </div>
-                <div class="player-time">
-                    <span id="timeCurrent">0:00</span>
-                    <span id="timeTotal">0:00</span>
+                <div style="font-size:0.7rem; color:var(--text-muted); margin-top:4px;">
+                    <span id="currTime">0:00</span> / <span id="totTime">0:00</span>
                 </div>
             </div>
-            
-            <div class="player-actions">
-                <i class="fas fa-volume-up" style="color:var(--text-secondary);"></i>
-                <div class="volume-control" onclick="player.setVolume(event)">
-                    <div class="vol-slider">
-                        <div class="vol-level" id="volLevel"></div>
-                    </div>
+
+            <div style="width:20%; display:flex; justify-content:flex-end; align-items:center; gap:10px;">
+                <i class="fas fa-volume-up" style="color:var(--text-muted); font-size:0.85rem;"></i>
+                <div style="width:80px; height:4px; background:rgba(255,255,255,0.1); cursor:pointer; position:relative;" onclick="player.setVolume(event)">
+                    <div id="volFilled" style="width:80%; height:100%; background:var(--neon-green);"></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- YouTube Iframe API Script -->
     <script src="https://www.youtube.com/iframe_api"></script>
 
-    <!-- Core JavaScript Application Logic -->
     <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
-
-        // Verified Data Model Sourced Directly from Rhythm Entertainments YouTube Channel
-        const db = {
-            company: {
-                name: "Rhythm Entertainments",
-                subscribers: "230K+",
-                desc: "Rhythm Entertainments is well known for Punjabi, Haryanvi, and Hindi music. Get new songs & videos exclusively on Rhythm Entertainments."
-            },
-            genres: ["All", "Punjabi", "Haryanvi", "Hindi"],
+        // Official Verified Data Sourced from Rhythm Entertainments YouTube Channel
+        const musicData = {
             artists: [
-                { id: "a1", name: "Puneet Simaar", image: "https://placehold.co/400x400/13131c/f3d58a?text=Puneet+Simaar", bio: "Haryanvi Gangster Rap and energetic modern beatmaker." },
-                { id: "a2", name: "Beparwaah Anushka", image: "https://placehold.co/400x400/13131c/9d4edd?text=Anushka", bio: "Sensational Punjabi vocalist known for emotional chartbusters." },
-                { id: "a3", name: "Sagar Saab", image: "https://placehold.co/400x400/13131c/f3d58a?text=Sagar+Saab", bio: "High-energy Punjabi hitmaker delivering iconic anthems." },
-                { id: "a4", name: "Jeet Dhaliwal", image: "https://placehold.co/400x400/13131c/9d4edd?text=Jeet+Dhaliwal", bio: "Contemporary Punjabi artist with soulful melodies." },
-                { id: "a5", name: "Yuvi Singh", image: "https://placehold.co/400x400/13131c/f3d58a?text=Yuvi+Singh", bio: "Urban Punjabi sound creator and lifestyle icon." },
-                { id: "a6", name: "Bobby & Harsh Maan", image: "https://placehold.co/400x400/13131c/9d4edd?text=Bobby+Harsh", bio: "Dynamic Punjabi duo creating immersive visual soundtracks." }
+                { id: "a1", name: "Puneet Simaar", genre: "Haryanvi", image: "https://placehold.co/400x500/0d0e12/00ff66?text=Puneet+Simaar" },
+                { id: "a2", name: "Beparwaah Anushka", genre: "Punjabi", image: "https://placehold.co/400x500/0d0e12/ff007f?text=Anushka" },
+                { id: "a3", name: "Sagar Saab", genre: "Punjabi", image: "https://placehold.co/400x500/0d0e12/00ff66?text=Sagar+Saab" },
+                { id: "a4", name: "Jeet Dhaliwal", genre: "Punjabi", image: "https://placehold.co/400x500/0d0e12/ff007f?text=Jeet+Dhaliwal" },
+                { id: "a5", name: "Yuvi Singh", genre: "Punjabi", image: "https://placehold.co/400x500/0d0e12/00ff66?text=Yuvi+Singh" },
+                { id: "a6", name: "Bobby & Harsh Maan", genre: "Punjabi", image: "https://placehold.co/400x500/0d0e12/ff007f?text=Bobby+Harsh" }
             ],
             songs: [
-                // Punjabi
-                { id: "s1", title: "Lihaaz (Official Video)", artistId: "a2", ytId: "2jUXomlV0s4", genre: "Punjabi", views: 874536, date: "2025-05-05", hasVideo: true },
-                { id: "s2", title: "Paindi Dhakk", artistId: "a3", ytId: "tMvyKI1tyZk", genre: "Punjabi", views: 286261, date: "2026-01-10", hasVideo: true },
-                { id: "s3", title: "On Call (Visuals Video)", artistId: "a4", ytId: "v7IMnV5CrG4", genre: "Punjabi", views: 59781, date: "2025-10-11", hasVideo: true },
-                { id: "s4", title: "LIFESTYLE (Official Video)", artistId: "a5", ytId: "b5GX8lLEs4M", genre: "Punjabi", views: 117674, date: "2023-10-15", hasVideo: true },
-                { id: "s5", title: "Dil Mera Visualization", artistId: "a6", ytId: "SV-nRXvLfcg", genre: "Punjabi", views: 2650, date: "2025-07-01", hasVideo: true },
-                { id: "s6", title: "DAAG (Visuals Video)", artistId: "a4", ytId: "1XgVPuYYPZ0", genre: "Punjabi", views: 223182, date: "2025-08-20", hasVideo: true },
-                // Haryanvi
-                { id: "h1", title: "GANDE KAAND (Official Lyrical)", artistId: "a1", ytId: "-V8DOUkTWGQ", genre: "Haryanvi", views: 495600, date: "2026-02-08", hasVideo: true },
-                { id: "h2", title: "GANDE KAAND (Official Audio)", artistId: "a1", ytId: "vfk6jN3b0ho", genre: "Haryanvi", views: 101548, date: "2026-02-05", hasVideo: false },
-                // Hindi
-                { id: "hn1", title: "Romantic Song | Mahendi Song", artistId: "a4", ytId: "GMpzEaP2QnM", genre: "Hindi", views: 48000, date: "2020-11-06", hasVideo: true },
-                { id: "hn2", title: "Rhythm Of My Soul (Pop)", artistId: "a5", ytId: "EFqYiuJcZPA", genre: "Hindi", views: 3355, date: "2026-06-13", hasVideo: true }
+                // Punjabi Releases
+                { id: "s1", title: "Lihaaz (Official Video)", artist: "Beparwaah Anushka", genre: "Punjabi", ytId: "2jUXomlV0s4", views: "874K" },
+                { id: "s2", title: "Paindi Dhakk", artist: "Sagar Saab", genre: "Punjabi", ytId: "tMvyKI1tyZk", views: "286K" },
+                { id: "s3", title: "On Call (Visuals Video)", artist: "Jeet Dhaliwal", genre: "Punjabi", ytId: "v7IMnV5CrG4", views: "59K" },
+                { id: "s4", title: "LIFESTYLE (Official Video)", artist: "Yuvi Singh", genre: "Punjabi", ytId: "b5GX8lLEs4M", views: "117K" },
+                { id: "s5", title: "Dil Mera Visualization", artist: "Bobby & Harsh Maan", genre: "Punjabi", ytId: "SV-nRXvLfcg", views: "2.6K" },
+                { id: "s6", title: "DAAG (Visuals Video)", artist: "Jeet Dhaliwal", genre: "Punjabi", ytId: "1XgVPuYYPZ0", views: "223K" },
+                // Haryanvi Releases
+                { id: "h1", title: "GANDE KAAND (Official Lyrical)", artist: "Puneet Simaar", genre: "Haryanvi", ytId: "-V8DOUkTWGQ", views: "495K" },
+                { id: "h2", title: "GANDE KAAND (Official Audio)", artist: "Puneet Simaar", genre: "Haryanvi", ytId: "vfk6jN3b0ho", views: "101K" },
+                // Hindi Releases
+                { id: "hn1", title: "Romantic Song | Mahendi Song", artist: "Jeet Dhaliwal", genre: "Hindi", ytId: "GMpzEaP2QnM", views: "48K" },
+                { id: "hn2", title: "Rhythm Of My Soul (Pop)", artist: "Yuvi Singh", genre: "Hindi", ytId: "EFqYiuJcZPA", views: "3.3K" }
             ]
         };
 
-        const getArtist = id => db.artists.find(a => a.id === id);
         const getThumb = ytId => `https://img.youtube.com/vi/${ytId}/maxresdefault.jpg`;
-        const formatViews = views => views >= 1000000 ? (views/1000000).toFixed(1)+'M' : (views >= 1000 ? (views/1000).toFixed(0)+'K' : views);
 
-        // App Router & Controller
-        const app = {
-            init() {
-                this.handleRoute();
-                window.addEventListener('hashchange', () => this.handleRoute());
-                ui.initScrollListener();
-                ui.initSearch();
-                
-                setTimeout(() => {
-                    document.getElementById('loader').style.opacity = '0';
-                    setTimeout(() => document.getElementById('loader').style.display = 'none', 500);
-                    ui.triggerAnimations();
-                }, 900);
-            },
-            
-            handleRoute() {
-                const hash = window.location.hash || '#home';
-                const page = hash.substring(1);
-                const root = document.getElementById('app-root');
-                
-                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
-                const activeLink = document.querySelector(`.nav-link[href="${hash}"]`);
-                if(activeLink) activeLink.classList.add('active');
-
-                root.style.opacity = '0';
-                ui.closeMenu();
-                
-                setTimeout(() => {
-                    window.scrollTo(0,0);
-                    
-                    if(page === 'home') root.innerHTML = views.home();
-                    else if(page === 'songs') root.innerHTML = views.songs();
-                    else if(page === 'artists') root.innerHTML = views.artists();
-                    else if(page === 'videos') root.innerHTML = views.videos();
-                    else if(page === 'about') root.innerHTML = views.about();
-                    else if(page === 'contact') root.innerHTML = views.contact();
-                    else root.innerHTML = views.home();
-                    
-                    requestAnimationFrame(() => {
-                        root.style.opacity = '1';
-                        ui.triggerAnimations();
-                    });
-                }, 250);
-            }
-        };
-
-        // Views Generator
-        const views = {
-            home() {
-                const latest = db.songs[0];
-                const trending = db.songs.sort((a,b) => b.views - a.views).slice(0,4);
-                
-                return `
-                    <section class="hero">
-                        <div class="container hero-content">
-                            <span class="hero-label reveal">Featured Release</span>
-                            <h1 class="hero-title reveal" style="transition-delay: 0.1s">${latest.title.split('(')[0]}</h1>
-                            <p class="hero-desc reveal" style="transition-delay: 0.2s">Experience the latest hit from ${getArtist(latest.artistId).name}. Stream exclusively in high fidelity on Rhythm Entertainments.</p>
-                            <div class="hero-actions reveal" style="transition-delay: 0.3s">
-                                <button class="btn btn-primary" onclick="player.playTrack('${latest.id}')"><i class="fas fa-play"></i> Listen Now</button>
-                                <button class="btn btn-outline" onclick="ui.openVideo('${latest.ytId}')"><i class="fas fa-video"></i> Watch Video</button>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="section-padding">
-                        <div class="container">
-                            <div class="section-header reveal">
-                                <div>
-                                    <h2 class="section-title">Trending <span class="gradient-text">Hits</span></h2>
-                                </div>
-                                <a href="#songs" class="btn btn-outline" style="padding: 0.5rem 1.5rem; font-size:0.8rem;">View All Songs</a>
-                            </div>
-                            
-                            <div class="grid grid-cards">
-                                ${trending.map((song, i) => this.songCard(song, i)).join('')}
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="section-padding" style="background: var(--bg-surface);">
-                        <div class="container">
-                            <div class="section-header reveal">
-                                <h2 class="section-title">Featured <span class="gradient-text">Artists</span></h2>
-                            </div>
-                            <div class="grid grid-artists">
-                                ${db.artists.map((artist, i) => `
-                                    <div class="artist-card reveal" style="transition-delay: ${i*0.1}s" onclick="window.location.hash='#artists'">
-                                        <div class="artist-img-wrap">
-                                            <img src="${artist.image}" alt="${artist.name}" loading="lazy">
-                                        </div>
-                                        <h4 style="font-size:1.1rem; margin-bottom:5px;">${artist.name}</h4>
-                                        <p style="font-size:0.8rem; color:var(--brand-gold);">${db.songs.filter(s=>s.artistId===artist.id)[0]?.genre || 'Music'} Artist</p>
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
-                    </section>
-                `;
-            },
-            
-            songs(genreFilter = 'All') {
-                const songsToDisplay = genreFilter === 'All' ? db.songs : db.songs.filter(s => s.genre === genreFilter);
-                
-                window.filterSongs = (genre) => {
-                    const grid = document.getElementById('songs-grid');
-                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                    document.querySelector(`[data-genre="${genre}"]`).classList.add('active');
-                    
-                    grid.style.opacity = '0';
-                    setTimeout(() => {
-                        const filtered = genre === 'All' ? db.songs : db.songs.filter(s => s.genre === genre);
-                        grid.innerHTML = filtered.map((song, i) => this.songCard(song, i)).join('');
-                        grid.style.opacity = '1';
-                        ui.triggerAnimations();
-                    }, 250);
-                };
-
-                return `
-                    <div class="page-header text-center" style="text-align:center;">
-                        <div class="container">
-                            <h1 class="section-title reveal">Music <span class="gradient-text">Catalog</span></h1>
-                            <p class="reveal" style="color:var(--text-secondary); margin-top:1rem;">Explore verified Punjabi, Haryanvi, and Hindi releases.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="container section-padding" style="padding-top:0;">
-                        <div class="filter-group reveal">
-                            ${db.genres.map(g => `
-                                <button class="filter-btn ${g === genreFilter ? 'active' : ''}" data-genre="${g}" onclick="filterSongs('${g}')">${g}</button>
-                            `).join('')}
-                        </div>
-                        
-                        <div class="grid grid-cards" id="songs-grid" style="transition: opacity 0.3s ease;">
-                            ${songsToDisplay.map((song, i) => this.songCard(song, i)).join('')}
-                        </div>
-                    </div>
-                `;
-            },
-            
-            videos() {
-                const vids = db.songs.filter(s => s.hasVideo);
-                return `
-                    <div class="page-header" style="text-align:center;">
-                        <div class="container">
-                            <h1 class="section-title reveal">Official <span class="gradient-text">Videos</span></h1>
-                            <p class="reveal" style="color:var(--text-secondary); margin-top:1rem;">Cinematic music videos produced by Rhythm Entertainments.</p>
-                        </div>
-                    </div>
-                    <div class="container section-padding" style="padding-top:0;">
-                        <div class="grid grid-cards">
-                            ${vids.map((v, i) => `
-                                <div class="media-card reveal" style="transition-delay: ${(i%4)*0.1}s" onclick="ui.openVideo('${v.ytId}')">
-                                    <div class="media-thumb-wrap">
-                                        <img src="${getThumb(v.ytId)}" class="media-img" loading="lazy">
-                                        <div class="play-overlay"><div class="play-btn-lg"><i class="fas fa-play"></i></div></div>
-                                    </div>
-                                    <div class="media-info">
-                                        <span class="media-genre-badge">${v.genre}</span>
-                                        <h3 class="media-title">${v.title}</h3>
-                                        <p class="media-artist">${getArtist(v.artistId).name}</p>
-                                        <div class="media-stats">
-                                            <span><i class="fas fa-eye"></i> ${formatViews(v.views)}</span>
-                                            <span><i class="fab fa-youtube" style="color:var(--brand-gold);"></i> Watch</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-                `;
-            },
-            
-            artists() {
-                return `
-                    <div class="page-header" style="text-align:center;">
-                        <div class="container">
-                            <h1 class="section-title reveal">Artist <span class="gradient-text">Roster</span></h1>
-                            <p class="reveal" style="color:var(--text-secondary); margin-top:1rem;">Meet the extraordinary voices shaping the future of music.</p>
-                        </div>
-                    </div>
-                    <div class="container section-padding" style="padding-top:0;">
-                        <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 3rem;">
-                            ${db.artists.map((artist, i) => `
-                                <div class="glass-panel reveal" style="padding: 2.5rem; text-align:center; transition-delay: ${(i%3)*0.1}s">
-                                    <div class="artist-img-wrap" style="width: 150px; height: 150px; margin: 0 auto 1.5rem;">
-                                        <img src="${artist.image}" alt="${artist.name}" loading="lazy">
-                                    </div>
-                                    <h3 class="font-display" style="font-size:1.4rem; margin-bottom:10px;">${artist.name}</h3>
-                                    <p style="color:var(--text-secondary); margin-bottom:1.8rem; font-size:0.95rem;">${artist.bio}</p>
-                                    <button class="btn btn-outline" style="width:100%;" onclick="window.location.hash='#songs'">Explore Songs</button>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-                `;
-            },
-            
-            about() {
-                return `
-                    <div class="page-header" style="text-align:center;">
-                        <div class="container">
-                            <h1 class="section-title reveal">About <span class="gradient-text">Rhythm</span></h1>
-                            <p class="reveal" style="color:var(--text-secondary); margin-top:1rem;">The definitive home of Punjabi, Haryanvi, and Hindi chartbusters.</p>
-                        </div>
-                    </div>
-                    <div class="container section-padding" style="padding-top:0; max-width: 950px; text-align:center;">
-                        <img src="https://yt3.googleusercontent.com/ytc/AIdro_k6_U-Q5G_t7_g_6_M-788_0353_6_Z_z34_Z_C=s900-c-k-c0x00ffffff-no-rj" style="width:160px; height:160px; border-radius:50%; margin: 0 auto 2.5rem; border: 3px solid var(--brand-gold); box-shadow: 0 0 40px var(--brand-gold-glow);" class="reveal">
-                        <p class="reveal" style="font-size: 1.25rem; line-height:1.9; color: var(--text-secondary); margin-bottom: 2.5rem;">
-                            ${db.company.desc} With over 230,000+ dedicated subscribers and millions of global streams, Rhythm Entertainments stands at the forefront of modern South Asian entertainment.
-                        </p>
-                        <div class="grid" style="grid-template-columns: 1fr 1fr; gap:2.5rem; margin-top:4rem;">
-                            <div class="glass-panel reveal" style="padding: 3rem 2rem;">
-                                <h2 class="gradient-text font-display" style="font-size:3.2rem;">${db.company.subscribers}</h2>
-                                <p style="text-transform:uppercase; letter-spacing:2px; font-size:0.9rem; margin-top:10px; color:var(--text-secondary);">YouTube Subscribers</p>
-                            </div>
-                            <div class="glass-panel reveal" style="padding: 3rem 2rem; transition-delay:0.2s">
-                                <h2 class="gradient-text font-display" style="font-size:3.2rem; --brand-purple: var(--brand-cyan);">${db.songs.length}+</h2>
-                                <p style="text-transform:uppercase; letter-spacing:2px; font-size:0.9rem; margin-top:10px; color:var(--text-secondary);">Verified Releases</p>
-                            </div>
-                        </div>
-                    </div>
-                `;
-            },
-
-            contact() {
-                return `
-                    <div class="page-header" style="text-align:center;">
-                        <div class="container">
-                            <h1 class="section-title reveal">Contact <span class="gradient-text">Us</span></h1>
-                            <p class="reveal" style="color:var(--text-secondary); margin-top:1rem;">Get in touch for artist bookings, licensing, and general inquiries.</p>
-                        </div>
-                    </div>
-                    <div class="container section-padding" style="padding-top:0; max-width: 900px;">
-                        <div class="glass-panel reveal" style="padding: 3.5rem;">
-                            <form onsubmit="event.preventDefault(); alert('Message sent successfully! We will get back to you shortly.');">
-                                <div style="display:grid; grid-template-columns: 1fr 1fr; gap:2rem; margin-bottom:2rem;">
-                                    <div>
-                                        <label style="display:block; font-size:0.85rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:8px; color:var(--text-secondary);">Your Name</label>
-                                        <input type="text" required placeholder="John Doe" style="width:100%; padding:14px; background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:10px; color:white; outline:none;">
-                                    </div>
-                                    <div>
-                                        <label style="display:block; font-size:0.85rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:8px; color:var(--text-secondary);">Email Address</label>
-                                        <input type="email" required placeholder="john@example.com" style="width:100%; padding:14px; background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:10px; color:white; outline:none;">
-                                    </div>
-                                </div>
-                                <div style="margin-bottom:2rem;">
-                                    <label style="display:block; font-size:0.85rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:8px; color:var(--text-secondary);">Message</label>
-                                    <textarea rows="5" required placeholder="Write your inquiry here..." style="width:100%; padding:14px; background:var(--bg-elevated); border:1px solid var(--border-subtle); border-radius:10px; color:white; outline:none; resize:none;"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-accent" style="width:100%;">Send Message</button>
-                            </form>
-                        </div>
-                    </div>
-                `;
-            },
-
-            songCard(song, index) {
-                return `
-                    <div class="media-card reveal" style="transition-delay: ${(index%4)*0.1}s" onclick="player.playTrack('${song.id}')">
-                        <div class="media-thumb-wrap square">
-                            <img src="${getThumb(song.ytId)}" class="media-img" loading="lazy">
-                            <div class="play-overlay"><div class="play-btn-lg"><i class="fas fa-play"></i></div></div>
-                        </div>
-                        <div class="media-info">
-                            <span class="media-genre-badge">${song.genre}</span>
-                            <h3 class="media-title">${song.title.split('(')[0]}</h3>
-                            <p class="media-artist">${getArtist(song.artistId).name}</p>
-                            <div class="media-stats">
-                                <span><i class="fas fa-calendar-alt"></i> ${song.date.substring(0,4)}</span>
-                                <button onclick="event.stopPropagation(); ui.openVideo('${song.ytId}')" style="color:var(--brand-gold); cursor:pointer;" title="Watch Video"><i class="fas fa-video"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                `;
-            }
-        };
-
-        // UI Helpers & Interactions
+        // UI Management Engine
         const ui = {
-            initScrollListener() {
-                window.addEventListener('scroll', () => {
-                    const nav = document.getElementById('navbar');
-                    if (window.scrollY > 40) nav.classList.add('scrolled');
-                    else nav.classList.remove('scrolled');
-                    this.triggerAnimations();
-                });
+            init() {
+                this.renderArtists();
+                this.renderCatalog(musicData.songs);
+                this.renderVideos();
+                this.initSearch();
             },
-            
-            triggerAnimations() {
-                document.querySelectorAll('.reveal:not(.active)').forEach(el => {
-                    if (el.getBoundingClientRect().top < window.innerHeight - 60) {
-                        el.classList.add('active');
-                    }
-                });
+
+            renderArtists() {
+                const roster = document.getElementById('artist-roster');
+                roster.innerHTML = musicData.artists.map(a => `
+                    <div class="artist-card-web3">
+                        <div class="artist-photo">
+                            <img src="${a.image}" alt="${a.name}" loading="lazy">
+                        </div>
+                        <div class="artist-info-box">
+                            <div class="artist-name-tech">${a.name}</div>
+                            <div style="font-size:0.75rem; color:var(--neon-green); font-family:var(--font-tech);">${a.genre.toUpperCase()} ARTIST</div>
+                        </div>
+                    </div>
+                `).join('');
             },
-            
-            toggleMenu() { document.getElementById('navLinks').classList.toggle('active'); },
-            closeMenu() { document.getElementById('navLinks').classList.remove('active'); },
+
+            renderCatalog(items) {
+                const grid = document.getElementById('catalog-grid');
+                grid.innerHTML = items.map(s => `
+                    <div class="track-card" onclick="player.playTrack('${s.id}')">
+                        <div class="track-img-wrap">
+                            <img src="${getThumb(s.ytId)}" loading="lazy" alt="${s.title}">
+                            <span class="genre-tag">${s.genre}</span>
+                            <div class="play-btn-overlay">
+                                <div class="circle-play-btn"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="track-title">${s.title.split('(')[0]}</div>
+                        <div class="track-artist">${s.artist}</div>
+                        <div class="track-footer">
+                            <span><i class="fas fa-eye"></i> ${s.views} Views</span>
+                            <button onclick="event.stopPropagation(); ui.openVideo('${s.ytId}')" style="color:var(--neon-pink);" title="Watch Video"><i class="fas fa-video"></i> WATCH</button>
+                        </div>
+                    </div>
+                `).join('');
+            },
+
+            renderVideos() {
+                const grid = document.getElementById('video-grid');
+                grid.innerHTML = musicData.songs.map(s => `
+                    <div class="track-card" onclick="ui.openVideo('${s.ytId}')">
+                        <div class="track-img-wrap">
+                            <img src="${getThumb(s.ytId)}" loading="lazy" alt="${s.title}">
+                            <span class="genre-tag">${s.genre}</span>
+                            <div class="play-btn-overlay">
+                                <div class="circle-play-btn"><i class="fas fa-play"></i></div>
+                            </div>
+                        </div>
+                        <div class="track-title">${s.title}</div>
+                        <div class="track-artist">${s.artist}</div>
+                    </div>
+                `).join('');
+            },
+
+            filterGenre(genre, btn) {
+                document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+                btn.classList.add('active');
+                
+                if (genre === 'All') {
+                    this.renderCatalog(musicData.songs);
+                } else {
+                    const filtered = musicData.songs.filter(s => s.genre === genre);
+                    this.renderCatalog(filtered);
+                }
+            },
 
             toggleSearch() {
-                const overlay = document.getElementById('searchOverlay');
-                overlay.classList.toggle('active');
-                if(overlay.classList.contains('active')) {
-                    setTimeout(() => document.getElementById('searchInput').focus(), 300);
-                } else {
-                    document.getElementById('searchInput').value = '';
-                    document.getElementById('searchResults').innerHTML = '';
+                const search = document.getElementById('searchOverlay');
+                search.classList.toggle('active');
+                if (search.classList.contains('active')) {
+                    setTimeout(() => document.getElementById('searchInput').focus(), 200);
                 }
             },
 
             initSearch() {
                 document.getElementById('searchInput').addEventListener('input', (e) => {
                     const q = e.target.value.toLowerCase();
-                    const results = document.getElementById('searchResults');
-                    if(q.length < 2) { results.innerHTML = ''; return; }
-                    
-                    const songs = db.songs.filter(s => s.title.toLowerCase().includes(q) || getArtist(s.artistId).name.toLowerCase().includes(q) || s.genre.toLowerCase().includes(q));
-                    
-                    if(songs.length === 0) {
-                        results.innerHTML = '<p style="color:var(--text-secondary); text-align:center;">No matching tracks found.</p>';
+                    const res = document.getElementById('searchResults');
+                    if (q.length < 2) { res.innerHTML = ''; return; }
+
+                    const matches = musicData.songs.filter(s => s.title.toLowerCase().includes(q) || s.artist.toLowerCase().includes(q) || s.genre.toLowerCase().includes(q));
+
+                    if (matches.length === 0) {
+                        res.innerHTML = '<p style="color:var(--text-muted); text-align:center;">No tracks found.</p>';
                         return;
                     }
 
-                    results.innerHTML = songs.map(s => `
-                        <div class="glass-panel" style="padding:15px; margin-bottom:12px; display:flex; align-items:center; gap:15px; cursor:pointer;" onclick="player.playTrack('${s.id}'); ui.toggleSearch();">
-                            <img src="${getThumb(s.ytId)}" style="width:60px; height:60px; border-radius:8px; object-fit:cover;">
+                    res.innerHTML = matches.map(s => `
+                        <div style="background:var(--bg-surface); padding:1rem; margin-bottom:10px; border-radius:6px; display:flex; align-items:center; gap:1rem; cursor:pointer;" onclick="player.playTrack('${s.id}'); ui.toggleSearch();">
+                            <img src="${getThumb(s.ytId)}" style="width:50px; height:50px; border-radius:4px; object-fit:cover;">
                             <div>
-                                <h4 style="font-size:1.05rem; color:white;">${s.title.split('(')[0]}</h4>
-                                <p style="font-size:0.85rem; color:var(--text-secondary);">${getArtist(s.artistId).name} • ${s.genre}</p>
+                                <div style="font-family:var(--font-tech); font-size:0.95rem;">${s.title.split('(')[0]}</div>
+                                <div style="font-size:0.8rem; color:var(--text-muted);">${s.artist} • ${s.genre}</div>
                             </div>
                         </div>
                     `).join('');
@@ -1218,132 +1154,124 @@
             openVideo(ytId) {
                 if(player.isPlaying) player.pause();
                 const modal = document.getElementById('videoModal');
-                document.getElementById('videoContainer').innerHTML = `<iframe src="https://www.youtube.com/embed/${ytId}?autoplay=1&rel=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+                document.getElementById('videoBox').innerHTML = `<iframe src="https://www.youtube.com/embed/${ytId}?autoplay=1&rel=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
                 modal.classList.add('active');
             },
-            
+
             closeVideo() {
                 document.getElementById('videoModal').classList.remove('active');
-                setTimeout(() => document.getElementById('videoContainer').innerHTML = '', 400);
+                setTimeout(() => document.getElementById('videoBox').innerHTML = '', 300);
             }
         };
 
-        // YouTube Audio Player Controller
+        // YouTube Audio Engine Controller
         const player = {
             yt: null,
-            playlist: db.songs,
+            playlist: musicData.songs,
             currentIndex: -1,
             isPlaying: false,
             timer: null,
-            
-            init(ytPlayerObject) {
-                this.yt = ytPlayerObject;
-                this.setVolumeLevel(80);
-            },
-            
+
+            init(ytObj) { this.yt = ytObj; },
+
             playTrack(id) {
-                const index = this.playlist.findIndex(s => s.id === id);
-                if(index > -1) {
-                    this.currentIndex = index;
-                    const song = this.playlist[index];
-                    
+                const idx = this.playlist.findIndex(s => s.id === id);
+                if (idx > -1) {
+                    this.currentIndex = idx;
+                    const song = this.playlist[idx];
+
                     document.getElementById('playerBar').classList.add('active');
                     document.getElementById('playerTitle').textContent = song.title.split('(')[0];
-                    document.getElementById('playerArtist').textContent = getArtist(song.artistId).name;
+                    document.getElementById('playerArtist').textContent = song.artist;
                     document.getElementById('playerThumb').src = getThumb(song.ytId);
-                    document.getElementById('app-root').style.paddingBottom = '130px';
 
-                    if(this.yt && this.yt.loadVideoById) {
+                    if (this.yt && this.yt.loadVideoById) {
                         this.yt.loadVideoById(song.ytId);
                     }
                 }
             },
-            
+
             togglePlay() {
-                if(!this.yt || !this.yt.getPlayerState) return;
-                if(this.yt.getPlayerState() === YT.PlayerState.PLAYING) this.pause();
+                if (!this.yt || !this.yt.getPlayerState) return;
+                if (this.yt.getPlayerState() === YT.PlayerState.PLAYING) this.pause();
                 else this.play();
             },
-            
-            play() { if(this.yt) this.yt.playVideo(); },
-            pause() { if(this.yt) this.yt.pauseVideo(); },
-            
+
+            play() { if (this.yt) this.yt.playVideo(); },
+            pause() { if (this.yt) this.yt.pauseVideo(); },
+
             next() {
-                if(this.currentIndex < this.playlist.length - 1) this.playTrack(this.playlist[this.currentIndex + 1].id);
+                if (this.currentIndex < this.playlist.length - 1) this.playTrack(this.playlist[this.currentIndex + 1].id);
                 else this.playTrack(this.playlist[0].id);
             },
-            
+
             prev() {
-                if(this.currentIndex > 0) this.playTrack(this.playlist[this.currentIndex - 1].id);
+                if (this.currentIndex > 0) this.playTrack(this.playlist[this.currentIndex - 1].id);
             },
-            
-            updateUIState(state) {
+
+            updateUI(state) {
                 const btn = document.getElementById('playPauseBtn');
-                if(state === YT.PlayerState.PLAYING) {
+                if (state === YT.PlayerState.PLAYING) {
                     this.isPlaying = true;
                     btn.innerHTML = '<i class="fas fa-pause"></i>';
                     this.startTimer();
                 } else {
                     this.isPlaying = false;
-                    btn.innerHTML = '<i class="fas fa-play" style="margin-left:3px;"></i>';
+                    btn.innerHTML = '<i class="fas fa-play" style="padding-left:2px;"></i>';
                     this.stopTimer();
-                    if(state === YT.PlayerState.ENDED) this.next();
+                    if (state === YT.PlayerState.ENDED) this.next();
                 }
             },
-            
+
             formatTime(s) {
-                if(isNaN(s)) return "0:00";
-                const m = Math.floor(s/60);
-                const sec = Math.floor(s%60);
+                if (isNaN(s)) return "0:00";
+                const m = Math.floor(s / 60);
+                const sec = Math.floor(s % 60);
                 return `${m}:${sec < 10 ? '0' : ''}${sec}`;
             },
-            
+
             startTimer() {
                 this.timer = setInterval(() => {
-                    if(this.yt && this.yt.getCurrentTime) {
+                    if (this.yt && this.yt.getCurrentTime) {
                         const curr = this.yt.getCurrentTime();
                         const dur = this.yt.getDuration();
-                        document.getElementById('timeCurrent').textContent = this.formatTime(curr);
-                        document.getElementById('timeTotal').textContent = this.formatTime(dur);
-                        document.getElementById('progressBar').style.width = `${(curr/dur)*100}%`;
+                        document.getElementById('currTime').textContent = this.formatTime(curr);
+                        document.getElementById('totTime').textContent = this.formatTime(dur);
+                        document.getElementById('playerProgressBar').style.width = `${(curr / dur) * 100}%`;
                     }
                 }, 500);
             },
-            
+
             stopTimer() { clearInterval(this.timer); },
-            
+
             seek(e) {
-                if(!this.yt || !this.yt.getDuration) return;
+                if (!this.yt || !this.yt.getDuration) return;
                 const rect = e.currentTarget.getBoundingClientRect();
                 const pos = (e.clientX - rect.left) / rect.width;
                 this.yt.seekTo(pos * this.yt.getDuration(), true);
             },
-            
-            setVolumeLevel(vol) {
-                if(this.yt && this.yt.setVolume) this.yt.setVolume(vol);
-                document.getElementById('volLevel').style.width = vol + '%';
-            },
-            
+
             setVolume(e) {
                 const rect = e.currentTarget.getBoundingClientRect();
                 let pos = (e.clientX - rect.left) / rect.width;
                 pos = Math.max(0, Math.min(1, pos));
-                this.setVolumeLevel(pos * 100);
+                if (this.yt && this.yt.setVolume) this.yt.setVolume(pos * 100);
+                document.getElementById('volFilled').style.width = `${pos * 100}%`;
             }
         };
 
         function onYouTubeIframeAPIReady() {
-            new YT.Player('yt-audio-player', {
+            new YT.Player('yt-engine', {
                 height: '0', width: '0',
                 playerVars: { 'autoplay': 0, 'controls': 0, 'playsinline': 1 },
                 events: {
                     'onReady': (e) => player.init(e.target),
-                    'onStateChange': (e) => player.updateUIState(e.data)
+                    'onStateChange': (e) => player.updateUI(e.data)
                 }
             });
         }
 
-        document.addEventListener('DOMContentLoaded', () => app.init());
+        document.addEventListener('DOMContentLoaded', () => ui.init());
     </script>
 </body>
 </html>
